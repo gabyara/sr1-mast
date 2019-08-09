@@ -33,7 +33,7 @@ render() {
           <MDBNavItem>
               <MDBNavLink onClick={this.toggle} className="waves-effect waves-light" to="#!">
                 <MDBIcon  icon="fas fa-envelope" /> Support
-                <Face/>
+              
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
                   <MDBModalHeader className="Titulo" toggle={this.toggle}>Support</MDBModalHeader>
                   <MDBModalBody>
