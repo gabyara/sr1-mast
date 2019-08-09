@@ -393,28 +393,28 @@ render() {
         
         <Row>
     <Col sm={2}>
-        <div class="md-form mb-3">
-        <div class="md-form my-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"></input>
+        <div className="md-form mb-3">
+        <div className="md-form my-0">
+        <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"></input>
       </div>      
         </div>
 
-        <div class="md-form mb-3">
+        <div className="md-form mb-3">
         
-        <i class="far fa-clock"> <strong>Recent</strong></i>
+        <i className="far fa-clock"> <strong>Recent</strong></i>
         
         </div>
 
-        <div class="md-form mb-3">
-        <i class="fas fa-star"> Destacada</i>
+        <div className="md-form mb-3">
+        <i className="fas fa-star"> Destacada</i>
         </div>
         
-        <div class="md-form mb-3">
-        <i class="fas fa-trash-alt"> Papelera</i>
+        <div className="md-form mb-3">
+        <i className="fas fa-trash-alt"> Papelera</i>
         </div>
-        <hr class="my-5"></hr>
-        <div class="md-form mb-3 ">
-        <i class="fas fa-server">  Storage</i>
+        <hr className="my-5"></hr>
+        <div className="md-form mb-3 ">
+        <i className="fas fa-server">  Storage</i>
         <MDBProgress value={25} className="my-2" />
         398.8 Mb of 5G used<br></br>
        <a className="color"> Increase storage</a>
@@ -422,10 +422,10 @@ render() {
         </Col>
     <Col sm={8}>     
      <Row> 
-     <Button color="light-blue" className="boton2" onClick={this.clickInNewFolder}><i class="fas fa-folder-plus"></i> Create Folder</Button>
-          <Button color="light-blue" className="boton" onClick={this.saveJson}><i class="fas fa-save"></i> Save</Button>
-          <Button color="light-blue" className="boton" onClick={this.saveJson}><i class="fas fa-file-upload"></i> File upload</Button>
-          <Button color="light-blue" className="boton" onClick={this.clickInBefore}><i class="fas fa-undo-alt"></i> Back</Button>
+     <Button color="light-blue" className="boton2" onClick={this.clickInNewFolder}><i className="fas fa-folder-plus"></i> Create Folder</Button>
+          <Button color="light-blue" className="boton" onClick={this.saveJson}><i className="fas fa-save"></i> Paste</Button>
+          <Button color="light-blue" className="boton" onClick={this.saveJson}><i className="fas fa-file-upload"></i> File upload</Button>
+          <Button color="light-blue" className="boton" onClick={this.clickInBefore}><i className="fas fa-undo-alt"></i> Back</Button>
          
           {/* <Col xs="4">
             <CheckboxTree

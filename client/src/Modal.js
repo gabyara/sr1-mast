@@ -21,30 +21,30 @@ render() {
         <MDBModalHeader toggle={this.toggle}>Sopote</MDBModalHeader>
         <MDBModalBody>
   
-    <div class="modal-content">
+    <div className="modal-content">
      
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fas fa-user prefix grey-text"></i>
-          <input type="text" id="form34" class="form-control validate"></input>
+      <div className="modal-body mx-3">
+        <div className="md-form mb-5">
+          <i className="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form34" className="form-control validate"></input>
           <label data-error="wrong" data-success="right" for="form34">Your name</label>
         </div>
 
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="form29" class="form-control validate"></input>
+        <div className="md-form mb-5">
+          <i className="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form29" className="form-control validate"></input>
           <label data-error="wrong" data-success="right" for="form29">Your email</label>
         </div>
 
-        <div class="md-form mb-5">
-          <i class="fas fa-tag prefix grey-text"></i>
-          <input type="text" id="form32" class="form-control validate"></input>
+        <div className="md-form mb-5">
+          <i className="fas fa-tag prefix grey-text"></i>
+          <input type="text" id="form32" className="form-control validate"></input>
           <label data-error="wrong" data-success="right" for="form32">Subject</label>
         </div>
 
-        <div class="md-form">
-          <i class="fas fa-pen-square"></i>
-          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+        <div className="md-form">
+          <i className="fas fa-pen-square"></i>
+          <textarea type="text" id="form8" className="md-textarea form-control" rows="4"></textarea>
         
         </div>
 

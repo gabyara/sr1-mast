@@ -64,23 +64,23 @@ toggleCollapse = () => {
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
                   <MDBModalHeader className="Titulo" toggle={this.toggle}>LogIn</MDBModalHeader>
                   <MDBModalBody>
-                  <div class="modal-body mx-3">
-                    <div class="md-form mb-5">
-                      <i class="fas fa-envelope prefix grey-text"></i>
-                      <input type="email" id="defaultForm-email" class="form-control validate"></input>
+                  <div className="modal-body mx-3">
+                    <div className="md-form mb-5">
+                      <i className="fas fa-envelope prefix grey-text"></i>
+                      <input type="email" id="defaultForm-email" className="form-control validate"></input>
                       <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
                     </div>
-                    <div class="md-form mb-4">
-                      <i class="fas fa-lock prefix grey-text"></i>
-                      <input type="password" id="defaultForm-pass" class="form-control validate"></input>
+                    <div className="md-form mb-4">
+                      <i className="fas fa-lock prefix grey-text"></i>
+                      <input type="password" id="defaultForm-pass" className="form-control validate"></input>
                       <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
                     </div>
                   </div>
-                  <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-default " className= "boton">Login</button>
+                  <div className="modal-footer d-flex justify-content-center">
+                    <button className="btn btn-default " className= "boton">Login</button>
                   </div>
                   <p className="Titulo or" >or</p>
-                  <div class=" justify-content-center"  ><FaceLogin/></div>
+                  <div className=" justify-content-center"  ><FaceLogin/></div>
                   </MDBModalBody>
                 </MDBModal>
               </MDBNavLink>

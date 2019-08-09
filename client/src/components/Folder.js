@@ -36,7 +36,7 @@ toggleCollapse = () => {
             <MDBDropdownMenu className="dropdown-default SubMenu">
               <MDBDropdownItem  href="#!">Eliminar</MDBDropdownItem>
               <MDBDropdownItem href="#!">Renombrar</MDBDropdownItem>
-              <MDBDropdownItem href="#!">Mover</MDBDropdownItem>
+              <MDBDropdownItem href="#!">Copiar</MDBDropdownItem>
             </MDBDropdownMenu>
           </MDBDropdown>
           

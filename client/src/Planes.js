@@ -68,22 +68,22 @@ toggleCollapse = () => {
                   <MDBModalHeader className="Titulo" toggle={this.toggle}>LogIn</MDBModalHeader>
                   <MDBModalBody>
                   
-                  <div class="modal-body mx-3">
-                    <div class="md-form mb-5">
-                      <i class="fas fa-envelope prefix grey-text"></i>
-                      <input type="email" id="defaultForm-email" class="form-control validate"></input>
+                  <div className="modal-body mx-3">
+                    <div className="md-form mb-5">
+                      <i className="fas fa-envelope prefix grey-text"></i>
+                      <input type="email" id="defaultForm-email" className="form-control validate"></input>
                       <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
                     </div>
 
-                    <div class="md-form mb-4">
-                      <i class="fas fa-lock prefix grey-text"></i>
-                      <input type="password" id="defaultForm-pass" class="form-control validate"></input>
+                    <div className="md-form mb-4">
+                      <i className="fas fa-lock prefix grey-text"></i>
+                      <input type="password" id="defaultForm-pass" className="form-control validate"></input>
                       <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
                     </div>
 
                   </div>
-                  <div class="modal-footer d-flex justify-content-center">
-                   <button class="btn btn-default " className= "boton">Login</button>
+                  <div className="modal-footer d-flex justify-content-center">
+                   <button className="btn btn-default " className= "boton">Login</button>
                    <FaceLogin/>
                   </div>
                 
@@ -104,54 +104,54 @@ toggleCollapse = () => {
              
              
 
-              <div class="card" style={{float:'left', width:'20%',marginTop: '5%',marginLeft:'15%'}}>
-                <div class="view overlay">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap"></img>
+              <div className="card" style={{float:'left', width:'20%',marginTop: '5%',marginLeft:'15%'}}>
+                <div className="view overlay">
+                  <img className="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap"></img>
                   <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
+                    <div className="mask rgba-white-slight"></div>
                   </a>
                 </div>
 
-                <div class="card-body">
+                <div className="card-body">
 
 
-                  <h4 class="card-title"  style={{color: '#aa98cc'}} >PLAN ESTANDAR</h4>
-                  <h5 class="card-text">¡¡GRATUITO!!</h5>
-                  <p class="card-text">Dispondras de un espacio de almacenamiento de hasta 1G.</p>
+                  <h4 className="card-title"  style={{color: '#aa98cc'}} >PLAN ESTANDAR</h4>
+                  <h5 className="card-text">¡¡GRATUITO!!</h5>
+                  <p className="card-text">Dispondras de un espacio de almacenamiento de hasta 1G.</p>
                   
                 </div>
               </div>
-              <div class="card" style={{float:'left', width:'20%',marginTop: '5%',marginLeft:'5%'}}>
-                <div class="view overlay">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap"></img>
+              <div className="card" style={{float:'left', width:'20%',marginTop: '5%',marginLeft:'5%'}}>
+                <div className="view overlay">
+                  <img className="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap"></img>
                   <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
+                    <div className="mask rgba-white-slight"></div>
                   </a>
                 </div>
 
-                <div class="card-body">
+                <div className="card-body">
 
 
-                <h4 class="card-title"  style={{color: '#aa98cc'}} >PLAN INTERMEDIO</h4>
-                  <h5 class="card-text">Consultanos</h5>
-                  <p class="card-text">Dispondras de un espacio de almacenamiento de hasta 10G.</p>
+                <h4 className="card-title"  style={{color: '#aa98cc'}} >PLAN INTERMEDIO</h4>
+                  <h5 className="card-text">Consultanos</h5>
+                  <p className="card-text">Dispondras de un espacio de almacenamiento de hasta 10G.</p>
                   
                 </div>
               </div>
-              <div class="card" style={{float:'left', width:'20%',marginTop: '5%',marginLeft:'5%'}}>
-                <div class="view overlay">
-                  <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap"></img>
+              <div className="card" style={{float:'left', width:'20%',marginTop: '5%',marginLeft:'5%'}}>
+                <div className="view overlay">
+                  <img className="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap"></img>
                   <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
+                    <div className="mask rgba-white-slight"></div>
                   </a>
                 </div>
 
-                <div class="card-body">
+                <div className="card-body">
 
 
-                <h4 class="card-title"  style={{color: '#aa98cc'}} >PLAN PREMIUM</h4>
-                  <h5 class="card-text">Consultanos</h5>
-                  <p class="card-text">Dispondras de un espacio de almacenamiento Ilimitado.</p>
+                <h4 className="card-title"  style={{color: '#aa98cc'}} >PLAN PREMIUM</h4>
+                  <h5 className="card-text">Consultanos</h5>
+                  <p className="card-text">Dispondras de un espacio de almacenamiento Ilimitado.</p>
                   
                 </div>
               </div>

@@ -74,26 +74,26 @@ toggleCollapse = () => {
                   <MDBModalHeader className="Titulo" toggle={this.toggle}>LogIn</MDBModalHeader>
                   <MDBModalBody>
                   
-                  <div class="modal-body mx-3">
-                    <div class="md-form mb-5">
-                      <i class="fas fa-envelope prefix grey-text"></i>
-                      <input type="email" id="defaultForm-email" class="form-control validate"></input>
+                  <div className="modal-body mx-3">
+                    <div className="md-form mb-5">
+                      <i className="fas fa-envelope prefix grey-text"></i>
+                      <input type="email" id="defaultForm-email" className="form-control validate"></input>
                       <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
                     </div>
 
-                    <div class="md-form mb-4">
-                      <i class="fas fa-lock prefix grey-text"></i>
-                      <input type="password" id="defaultForm-pass" class="form-control validate"></input>
+                    <div className="md-form mb-4">
+                      <i className="fas fa-lock prefix grey-text"></i>
+                      <input type="password" id="defaultForm-pass" className="form-control validate"></input>
                       <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
                     </div>
 
                   </div>
-                  <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-default " className= "boton">Login</button>
+                  <div className="modal-footer d-flex justify-content-center">
+                    <button className="btn btn-default " className= "boton">Login</button>
           
                   </div>
                   <p className="Titulo or" >or</p>
-                  <div class=" justify-content-center"  ><FaceLogin/></div>
+                  <div className=" justify-content-center"  ><FaceLogin/></div>
                   </MDBModalBody>
                 </MDBModal>
               </MDBNavLink>
@@ -112,70 +112,70 @@ toggleCollapse = () => {
              
              
 
-              <div class="card" >
-                <div class="view overlay">
-                  <img class="card-img-top" style={{width:'250px',height:'165px'}} src={Encriptado} alt="Card image cap"></img>
+              <div className="card" >
+                <div className="view overlay">
+                  <img className="card-img-top" style={{width:'250px',height:'165px'}} src={Encriptado} alt="Card image cap"></img>
                   <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
+                    <div className="mask rgba-white-slight"></div>
                   </a>
                 </div>
 
-                <div class="card-body">
+                <div className="card-body">
 
 
-                  <h4 class="card-title"  style={{color: '#aa98cc'}} >Privacy</h4>
+                  <h4 className="card-title"  style={{color: '#aa98cc'}} >Privacy</h4>
                 
-                  <p class="card-text">Dispondras de un espacio de almacenamiento de hasta 1G.</p>
+                  <p className="card-text">Dispondras de un espacio de almacenamiento de hasta 1G.</p>
                   
                 </div>
               </div>
-              <div class="card" >
-                <div class="view overlay">
-                  <img class="card-img-top"  src={Disponibilidad} alt="Card image cap"></img>
+              <div className="card" >
+                <div className="view overlay">
+                  <img className="card-img-top"  src={Disponibilidad} alt="Card image cap"></img>
                   <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
+                    <div className="mask rgba-white-slight"></div>
                   </a>
                 </div>
 
-                <div class="card-body">
+                <div className="card-body">
 
 
-                  <h4 class="card-title"  style={{color: '#aa98cc'}} >Customer Support</h4>
+                  <h4 className="card-title"  style={{color: '#aa98cc'}} >Customer Support</h4>
                 
-                  <p class="card-text">Dispondras de un espacio de almacenamiento de hasta 1G.</p>
+                  <p className="card-text">Dispondras de un espacio de almacenamiento de hasta 1G.</p>
                   
                 </div>
               </div>
-              <div class="card" >
-                <div class="view overlay">
-                  <img class="card-img-top" src={Dispositivos} alt="Card image cap"></img>
+              <div className="card" >
+                <div className="view overlay">
+                  <img className="card-img-top" src={Dispositivos} alt="Card image cap"></img>
                   <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
+                    <div className="mask rgba-white-slight"></div>
                   </a>
                 </div>
 
-                <div class="card-body">
+                <div className="card-body">
 
 
-                <h4 class="card-title"  style={{color: '#aa98cc'}} >On all devices</h4>
-                  <p class="card-text">Dispondras de un espacio de almacenamiento de hasta 10G.</p>
+                <h4 className="card-title"  style={{color: '#aa98cc'}} >On all devices</h4>
+                  <p className="card-text">Dispondras de un espacio de almacenamiento de hasta 10G.</p>
                   
                 </div>
               </div>
-              <div class="card" >
-                <div class="view overlay">
-                  <img class="card-img-top" src={Almacenamiento} alt="Card image cap"></img>
+              <div className="card" >
+                <div className="view overlay">
+                  <img className="card-img-top" src={Almacenamiento} alt="Card image cap"></img>
                   <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
+                    <div className="mask rgba-white-slight"></div>
                   </a>
                 </div>
 
-                <div class="card-body">
+                <div className="card-body">
 
 
-                <h4 class="card-title"  style={{color: '#aa98cc'}} >Big storage</h4>
+                <h4 className="card-title"  style={{color: '#aa98cc'}} >Big storage</h4>
                   
-                  <p class="card-text">Dispondras de un espacio de almacenamiento Ilimitado.</p>
+                  <p className="card-text">Dispondras de un espacio de almacenamiento Ilimitado.</p>
                   
                 </div>
               </div>
